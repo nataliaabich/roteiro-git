@@ -12,6 +12,9 @@ def main():
 
     plt.title('Gráfico de linhas')
 
+    for serie in valores:
+       plt.plot(serie) 
+
     plt.plot(valores)
     plt.show()
 
